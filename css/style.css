@@ -1,6 +1,10 @@
-/*
-  Borders
-*/
+/* Variables */
+
+:root {
+  --null: "";
+}
+
+/* Borders (for troubleshooting) */
 
 .wborder {
   border: 1px solid #fff;
@@ -12,6 +16,17 @@
   z-index: 999;
 }
 
-/*
-  Page Content
-*/
+/* Basic Page Elements */
+
+* {
+  box-sizing: border-box;
+}
+
+main, html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Page Content */ 
