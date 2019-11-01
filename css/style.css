@@ -1,3 +1,4 @@
+/* This styling is to be used on all pages */
 /* Variables */
 
 :root {
@@ -20,6 +21,29 @@
 
 * {
   box-sizing: border-box;
+}
+
+a:link {
+
+}
+
+a:hover {
+
+}
+
+a:active{
+
+}
+
+a:visited {
+
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+  
 }
 
 main, html, body {
